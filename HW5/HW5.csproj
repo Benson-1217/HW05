@@ -9,7 +9,41 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bold.png" />
+    <None Remove="img\bold.png" />
+    <None Remove="img\italic.png" />
+    <None Remove="img\new.png" />
+    <None Remove="img\open.png" />
+    <None Remove="img\save.png" />
+    <None Remove="img\trash.png" />
+    <None Remove="img\underline.png" />
+    <None Remove="italic.png" />
+    <None Remove="new.png" />
+    <None Remove="open.png" />
+    <None Remove="save.png" />
+    <None Remove="trash.png" />
+    <None Remove="underline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Extended.Wpf.Toolkit" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bold.png" />
+    <Resource Include="img\bold.png" />
+    <Resource Include="img\italic.png" />
+    <Resource Include="img\new.png" />
+    <Resource Include="img\open.png" />
+    <Resource Include="img\save.png" />
+    <Resource Include="img\trash.png" />
+    <Resource Include="img\underline.png" />
+    <Resource Include="italic.png" />
+    <Resource Include="new.png" />
+    <Resource Include="open.png" />
+    <Resource Include="save.png" />
+    <Resource Include="trash.png" />
+    <Resource Include="underline.png" />
   </ItemGroup>
 
 </Project>

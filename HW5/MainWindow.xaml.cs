@@ -20,5 +20,11 @@ namespace HW5
         {
             InitializeComponent();
         }
+
+        private void Open_Button_Click(object sender, RoutedEventArgs e)
+        {
+            MyDocumentViewer myDocumentViewer = new MyDocumentViewer();
+            myDocumentViewer.Show();
+        }
     }
 }
