@@ -28,7 +28,7 @@
                     <Image Height="32" Width="32" Source="/trash.png"/>
                 </Button>
             </ToolBar>
-            <ToolBar x:Name="EditingToolBar" Height="40" Width="500" Background="#FFE0F1DA">
+            <ToolBar x:Name="EditingToolBar" Height="40" Width="500" Background="Cyan">
                 <ToggleButton x:Name="BoldButton" Height="38" Width="38" Command="EditingCommands.ToggleBold">
                     <Image Width="32" Height="32" Source="/bold.png"/>
                 </ToggleButton>
@@ -43,10 +43,10 @@
                 <ComboBox x:Name="FontSizeComboBox" HorizontalAlignment="Left" VerticalAlignment="Center" Width="80" Height="30" SelectionChanged="FontSizeComboBox_SelectionChanged" />
             </ToolBar>
         </ToolBarTray>
-        <StatusBar Height="30" DockPanel.Dock="Bottom" Background="#FFE4E1E1">
+        <StatusBar Height="30" DockPanel.Dock="Bottom" Background="White">
 
         </StatusBar>
-        <RichTextBox x:Name="MainRichTextBox" Margin="10" Padding="5" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="#FFFBF9E9" SelectionChanged="MainRichTextBox_SelectionChanged">
+        <RichTextBox x:Name="MainRichTextBox" Margin="10" Padding="5" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="White"  SelectionChanged="MainRichTextBox_SelectionChanged">
             <FlowDocument/>
         </RichTextBox>
     </DockPanel>
